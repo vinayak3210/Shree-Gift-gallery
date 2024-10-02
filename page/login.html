@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> LOGIN - GIfts Gallery</title>
+  </head>
+  <style>
+    .center {
+      text-align: center;
+      margin: 25%;
+    }
+    a {
+      text-decoration: none;
+    }
+    h2 {
+      margin: 40px 5px;
+    }
+
+    .login {
+      width: 65vw;
+      border: 2px white solid;
+      border-radius: 30px;
+      margin: auto;
+      background-color: antiquewhite;
+      box-shadow: 10px 10px 10px black;
+      padding-bottom: 30px;
+    }
+
+    .bg {
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .bg > img {
+      margin-right: 10px;
+      height: 20px;
+      width: 20px;
+    }
+
+    button {
+      height: 10%;
+      width: 24%;
+      margin-top: 10px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      
+      .login{
+        width: 85vw;
+      }
+      .left {
+        margin-left: 70%;
+      }
+
+      .nav {
+        padding: 1%;
+        margin: 0px;
+      }
+
+      body {
+        margin: 0;
+      }
+    }
+  </style>
+
+  <body>
+    <div class="login center">
+      <h2>Login</h2>
+      <form action="">
+        <div class="bg">
+          <img src="assets/img/user.png" alt="" />
+          <input type="username" id="username" placeholder="enter username " />
+        </div>
+
+        <div class="bg">
+          <img src="assets/img/hide.png" alt="" />
+          <input type="password" id="pass" placeholder="password "  />
+        </div>
+
+        <div class="bg">
+          <button onclick="validate()" id="login">Submit</button>
+        </div>
+
+        <p>For signup click here</p>
+        <a href="signup.html"> Signup</a>
+      </form>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

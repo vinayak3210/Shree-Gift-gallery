@@ -1,0 +1,189 @@
+:root {
+    --main: antiquewhite;
+  }
+
+body{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    overflow: scroll;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav{
+    text-align: center;
+    background-color: var(--main);
+    padding: 2%;
+     
+}
+
+.navelement{
+    padding: 10px;
+    margin: 9px;
+    color: black;
+    text-decoration: none;
+}
+
+.navelement:hover{
+    border-bottom: 2px solid black;
+}
+
+.left{
+     margin-left: 80%;
+}
+
+.left:hover{
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+
+.men{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+div a img{
+    width: 200x;
+    height: 200px;
+    margin: 20px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+  
+}
+
+div a img:hover{
+    transform: scale(1.1)
+}
+
+h2{
+    margin-top: 50px;
+}
+
+div a p {
+    font-size: 13px; 
+}
+ 
+footer{
+    background-color: whitesmoke;   
+    padding: 0vw 5vw; 
+}
+
+.footer-1{
+  text-align: left;
+}
+
+
+
+/*
+this css for  register page */
+
+.register-page{
+    width: 50vw;
+    margin: auto;
+    background-color: var(--main);
+    border-radius: 10px;
+    padding: 10px;
+   justify-content: center;
+}
+
+#registrationForm{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#registrationForm input{
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: var(--main);
+}
+
+#regbtn{
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    background-color: rgba(64, 114, 220, 0.916);
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+ /* css for login page  */
+
+
+.login{
+    background-color: red;
+}
+ 
+.submit{
+    background-color: bisque;
+} 
+
+/*   for pages*/
+
+.p_name{
+    font-size: 12px;
+}
+
+.buy{
+    background-color: black;
+    color: white;
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+.dash-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-btn{
+    padding: 5px 20px;
+    color: white;
+    background-color: rgba(64, 114, 220, 0.916);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dash-right{
+    display: flex;
+    align-items: center;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width:600px) {
+
+    .sign{
+        width: 85vw;
+    }
+
+    .left{
+        margin-left: 70%;
+    }
+
+    .nav{
+        padding: 1%;
+        margin: 0px;
+    }
+
+    body{
+        margin: 0;
+        
+    }
+    
+}

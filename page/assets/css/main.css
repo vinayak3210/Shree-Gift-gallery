@@ -42,7 +42,7 @@ a{
     border-bottom: 2px solid black;
 }
 
-.men{
+.box{
     display: flex;
     flex-flow: wrap;
     justify-content: center;
@@ -74,10 +74,24 @@ div a p {
 footer{
     background-color: whitesmoke;   
     padding: 0vw 5vw; 
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .footer-1{
-  text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+}
+
+.footer-right{
+    text-align: left;
 }
 
 
@@ -112,7 +126,7 @@ this css for  register page */
     margin: auto;
     padding: 10px;
     color: white;
-    background-color: rgba(64, 114, 220, 0.916);
+    background-color: rgba(41, 42, 43, 0.916);
     border: none;
     border-radius: 15px;
     margin-bottom: 20px;
@@ -129,7 +143,7 @@ this css for  register page */
     background-color: bisque;
 } 
 
-/*   for pages*/
+/* Dash board  for pages*/
 
 .p_name{
     font-size: 12px;
@@ -162,6 +176,24 @@ this css for  register page */
     display: flex;
     align-items: center;
 }
+
+
+/*  For Gifts page  */
+.gift-size{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#continue-shopping{
+    padding: 10px 20px;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    width: 20%;
+    margin: auto;
+}
+
+
+
 
 
 /* media queries */

@@ -1,5 +1,4 @@
 
-
 const correctUsername = localStorage.getItem('username');
 const correctPassword = localStorage.getItem('password');
 
